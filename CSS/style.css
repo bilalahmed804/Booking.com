@@ -1,0 +1,48 @@
+@font-face {
+    font-family:Arizonia ;
+    src: url('font-family/Arizonia-Regular');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts\ family/RobotoCondensed-VariableFont_wght.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main01{
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+   
+}
+.borderzero{
+    border: 4px solid #FEB952 !important;
+}
+#main{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+.arizonia{
+    font-family: Arizonia;
+}
+.Roboto{
+    font-family: Roboto;
+}
+#bg-color:hover{
+    background-color: #2F4C9F;
+    padding: 10px 20px;
+}
+header{
+    background-color: #074395 !important;
+}
+
+footer{
+    color: white;
+    background-color: #232429;
+    padding: 10px 10px 10px 10px;
+}
